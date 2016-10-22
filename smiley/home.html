@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SmileysMazeHunt.com</title>
+    <link rel="stylesheet" href="style/style.css" type="text/css" />
+	<link rel="stylesheet" href="style/jquery.fancybox.css" type="text/css" />
+    
+    <script src="/scripts/jquery-1.12.3.min.js" type="text/javascript"></script>
+		 
+	<script>	
+		$(document).ready( function() 
+		{
+			$("#content").load("smiley.html");
+					
+			$("#load_smiley").on("click", function() 
+			{
+				$("#content").load("smiley.html");				
+			});
+			$("#load_botonoids").on("click", function()
+			{
+				$("#content").load("botonoids2008.html");
+			});
+			$("#load_shooterland").on("click", function()
+			{
+				$("#content").load("shooterland.html");
+			});
+			$("#load_tubeit").on("click", function()
+			{
+				$("#content").load("tubeit.html");
+			});
+			$("#load_gorlorn").on("click", function()
+			{
+				$("#content").load("gorlorn.html");
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<div class="container">
+		<div id="menu" class="container">
+			<ul>
+				<li><p id="load_smiley">Smiley's Maze Hunt</a></li>
+				<li><p id="load_botonoids">Botonoids 2008</a></li>
+				<li><p id="load_shooterland">Shooterland</a></li>
+				<li><p id="load_tubeit">Tube-It</a></li>
+				<li><p id="load_gorlorn">Gorlorn</a></li>
+			</ul>
+		</div>
+		
+		<div id ="content" />
+		
+		<div id="copyright">
+			<p>&copy; 2016 smileysmazehunt.com</p>
+		</div>
+	</div>
+</body>
+</html>
