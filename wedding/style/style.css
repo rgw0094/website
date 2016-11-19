@@ -7,29 +7,41 @@
 	{
 		margin: 0px;
 		padding: 0px;
-		background: #430D0D;
+		background: #F8F8F8;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 12pt;
 		font-weight: 400;
 		color: #430D0D;
 	}
-	
-	
+
 	h1, h2, h3
 	{
 		margin: 0;
 		padding: 0;
 	}
 	
+	img
+	{
+		padding: 0px;
+		/*box-shadow: 4px 4px 3px #888888;*/
+		border: 1px solid #888888;
+	}
+	
 	p, ol, ul
 	{
 		margin-top: 0;
+		color: #000000;
 	}
 	
 	ol, ul
 	{
 		padding: 0;
 		list-style: none;
+	}
+	
+	table, th, td
+	{
+		border: 0px;
 	}
 	
 	p
@@ -43,12 +55,18 @@
 	
 	a
 	{
-		color: #747474;
+		color: #505050;
 	}
 	
 	a:hover
 	{
 		text-decoration: none;
+	}
+	
+	.menucontainer
+	{
+		margin: 0px auto;
+		width: 100%;
 	}
 	
 	.container
@@ -57,27 +75,9 @@
 		width: 911px;
 	}
 	
-/*********************************************************************************/
-/* Heading Titles                                                                */
-/*********************************************************************************/
-
-	.title
+	.shuttle
 	{
-		margin-bottom: 2em;
-	}
-
-	.title h2
-	{
-		letter-spacing: 0.10em;
-		text-transform: uppercase;
-		font-weight: 700;
-		font-size: 2em;
-		color: #FFF;
-	}
-	
-	.title .byline
-	{
-		color: #6F6F6F;
+		font-size: 18px
 	}
 
 /*********************************************************************************/
@@ -171,69 +171,25 @@
 		color: #fff !important;
 	}
 
-		.button:hover
-		{
-			background: #BB1717;
-			-webkit-transition: all .25s ease-in-out;
-			-moz-transition: all .25s ease-in-out;
-			-ms-transition: all .25s ease-in-out;
-			-o-transition: all .25s ease-in-out;
-			transition: all .25s ease-in-out;
-		}
+	.button:hover
+	{
+		background: #BB1717;
+		-webkit-transition: all .25s ease-in-out;
+		-moz-transition: all .25s ease-in-out;
+		-ms-transition: all .25s ease-in-out;
+		-o-transition: all .25s ease-in-out;
+		transition: all .25s ease-in-out;
+	}
 		
-		.button:active
-		{
-			background: #B41313;
-			-webkit-transition: all .25s ease-in-out;
-			-moz-transition: all .25s ease-in-out;
-			-ms-transition: all .25s ease-in-out;
-			-o-transition: all .25s ease-in-out;
-			transition: all .25s ease-in-out;
-		}
-		
-/*********************************************************************************/
-/* Header                                                                        */
-/*********************************************************************************/
-
-	#header
+	.button:active
 	{
+		background: #B41313;
+		-webkit-transition: all .25s ease-in-out;
+		-moz-transition: all .25s ease-in-out;
+		-ms-transition: all .25s ease-in-out;
+		-o-transition: all .25s ease-in-out;
+		transition: all .25s ease-in-out;
 	}
-
-/*********************************************************************************/
-/* Logo                                                                          */
-/*********************************************************************************/
-
-	#logo
-	{
-		padding: 3em 0em;
-		text-transform: uppercase;
-	}
-	
-	#logo h1 a
-	{
-		text-decoration: none;
-		font-size: 1.5em;
-		color: #FFF;
-	}
-	
-	#logo span
-	{
-		color: #BC1414;
-	}
-	
-	#logo p
-	{
-		margin: 0;
-		padding: 0;
-		letter-spacing: 0.10em;
-		font-size: 0.90em;
-	}
-
-	#logo p a
-	{
-		text-decoration: none;
-	}
-
 
 /*********************************************************************************/
 /* Menu                                                                          */
@@ -241,8 +197,10 @@
 
 #menu
 {
-	background: #1B1B1B;
-	/*border-bottom: 4px solid #BC1414;*/
+	/*background: #430D0D;*/
+	/*background: #721515;*/
+	background: #A0A0A0;
+	/**border-bottom: 4px solid #BC1414;*/
 }
 
 #menu ul
@@ -269,7 +227,7 @@
 	text-transform: uppercase;
 	font-size: 1em;
 	font-weight: 700;
-	color: #838383;
+	color: #F0F0F0;
 }
 
 #menu .current_page_item a
@@ -305,10 +263,9 @@
 #page
 {
 	overflow: hidden;
-	float: left;
+	float: top;
 	padding: 1em 0em;
-	background: #FFF;
-	color: #525252;
+	color: #FFFFFF;
 }
 
 #page h2
@@ -317,7 +274,7 @@
 	text-transform: uppercase;
 	font-size: 1.5em;
 	font-weight: 700;
-	color: #454445;
+	color: #000000;
 }
 
 #page p
@@ -331,25 +288,8 @@
 
 	#content
 	{
-		float: left;
-		width: 800px;
-	}
-
-/*********************************************************************************/
-/* Sidebar                                                                       */
-/*********************************************************************************/
-
-	#sidebar
-	{
-		float: right;
-		width: 300px;
-	}
-	
-	#sidebar .title
-	{
-		letter-spacing: 0.10em;
-		text-transform: uppercase;
-		color: #FFF;
+		float: center;
+		width: 911px;
 	}
 
 /*********************************************************************************/

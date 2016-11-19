@@ -10,10 +10,10 @@
 		{	
 			$("#content").load("wedding/home.html");
 			
-			//$("#load_wedding").on("click", function()
-			//{
-//				$("#content").load("wedding/home.html");
-			//});
+			$("#load_wedding").on("click", function()
+			{
+				$("#content").load("wedding/home.html");
+			});
 			$("#load_venue").on("click", function()
 			{
 				$("#content").load("wedding/venue.html");
@@ -31,14 +31,12 @@
 </header>
 
 <body>
-	<div class="container">
-		<img id="header-image" src="wedding/images/header.png" width="911" height="118"></img>
-
-		<div id="menu" class="container">
+	<div>
+		<div id="menu" class="menucontainer">
 			<ul>
-				<!--<li><a href="#" id="load_wedding">Wedding</a></li>-->
-				<li><a href="#" id="load_venue">Venue</a></li>
-				<li><a href="#" id="load_hotel">Hotel</a></li>
+				<li><a href="#" id="load_wedding">Wedding</a></li>
+				<li><a href="#" id="load_venue">Venue/Schedule</a></li>
+				<li><a href="#" id="load_hotel">Hotels</a></li>
 				<li><a href="#" id="load_registry">Registry</a></li>
 			</ul>
 		</div>
