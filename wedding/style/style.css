@@ -75,6 +75,16 @@
 		width: 911px;
 	}
 	
+	.note
+	{
+		font-size: 14px
+	}
+	
+	.table
+	{
+		font-size: 15px
+	}
+	
 	.shuttle
 	{
 		font-size: 18px
@@ -273,6 +283,15 @@
 	margin: 0.5em 0.2em;
 	text-transform: uppercase;
 	font-size: 1.5em;
+	font-weight: 700;
+	color: #000000;
+}
+
+#page h3
+{
+	margin: 0.5em 0.2em;
+	text-transform: uppercase;
+	font-size: 1.1em;
 	font-weight: 700;
 	color: #000000;
 }
