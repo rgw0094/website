@@ -1,3 +1,14 @@
+	@font-face
+	{
+		font-family: "HeaderFont";
+		src: url("../fonts/Meddon.ttf");
+	} 
+	
+	html
+	{
+		overflow-y: scroll;
+	}
+	
 	html, body
 	{
 		height: 100%;
@@ -7,14 +18,12 @@
 	{
 		margin: 0px;
 		padding: 0px;
-		background: #F8F8F8;
-		font-family: 'Source Sans Pro', sans-serif;
+		background-image: url('../images/background-tile.png');
 		font-size: 12pt;
 		font-weight: 400;
-		color: #430D0D;
 	}
 
-	h1, h2, h3
+	h2
 	{
 		margin: 0;
 		padding: 0;
@@ -24,12 +33,12 @@
 	{
 		padding: 0px;
 		/*box-shadow: 4px 4px 3px #888888;*/
-		border: 1px solid #888888;
+		/*border: 1px solid #888888;*/
 	}
 	
 	p, ol, ul
 	{
-		margin-top: 0;
+		margin: 0;
 		color: #000000;
 	}
 	
@@ -42,11 +51,6 @@
 	table, th, td
 	{
 		border: 0px;
-	}
-	
-	p
-	{
-		line-height: 180%;
 	}
 	
 	strong
@@ -71,8 +75,25 @@
 	
 	.container
 	{
-		margin: 0px auto;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.contentblock
+	{
+		background: #fefefe;
+		padding: 15px;
 		width: 911px;
+	}
+	
+	.registryblock
+	{
+		background: #fefefe;
+		border: solid;
+		border-color: #aaaaaa;
+		width: 500px;
+		height: 130px;
+		margin-bottom: 50px;
 	}
 	
 	.note
@@ -88,6 +109,36 @@
 	.shuttle
 	{
 		font-size: 18px
+	}
+	
+	.header
+	{
+		padding: 0;
+		font-family: 'HeaderFont';
+		font-weight: 500;
+		font-size: 2em;
+		color: #4c803c
+	}
+	
+	.smallheader
+	{
+		padding: 0;
+		font-family: 'Times New Roman';
+		font-weight: 400;
+		font-size: 1.1em;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		color: #4c803c
+	}
+	
+	.subtitle
+	{
+		padding: 0;
+		font-family: 'Times New Roman';
+		font-weight: 700;
+		font-size: 0.80em;
+		color: #888888
 	}
 
 /*********************************************************************************/
@@ -209,7 +260,7 @@
 {
 	/*background: #430D0D;*/
 	/*background: #721515;*/
-	background: #A0A0A0;
+	/*background: #A0A0A0;*/
 	/**border-bottom: 4px solid #BC1414;*/
 }
 
@@ -232,12 +283,13 @@
 	display: block;
 	padding: 0em 2em;
 	line-height: 50px;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-size: 1em;
-	font-weight: 700;
-	color: #F0F0F0;
+	font-family: "Times New Roman";
+	font-size: 1.1em;
+	font-weight:550;
+	color: #888888;
 }
 
 #menu .current_page_item a
@@ -249,7 +301,7 @@
 #menu a:hover
 {
 	text-decoration: none;
-	color: #FFF;
+	color: #4c803c;
 }
 
 /*********************************************************************************/
@@ -284,7 +336,7 @@
 	text-transform: uppercase;
 	font-size: 1.5em;
 	font-weight: 700;
-	color: #000000;
+	color: #4c803c;
 }
 
 #page h3
