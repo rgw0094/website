@@ -42,6 +42,17 @@
 		color: #000000;
 	}
 	
+	.normaltext
+	{
+		font-family: "Times New Roman";
+		display: block;
+		letter-spacing: 1px;
+		text-decoration: none;
+		font-size: 1.1em;
+		font-weight:550;
+		color: black;
+	}
+	
 	ol, ul
 	{
 		padding: 0;
@@ -59,7 +70,11 @@
 	
 	a
 	{
-		color: #505050;
+		padding: 0;
+		font-family: 'Times New Roman';
+		font-weight: 700;
+		font-size: 1em;
+		color: #888888
 	}
 	
 	a:hover
