@@ -77,6 +77,11 @@
 		color: #888888
 	}
 	
+	.link
+	{
+		font-size: 0.9em;
+	}
+	
 	a:hover
 	{
 		text-decoration: none;
@@ -296,14 +301,14 @@
 #menu a
 {
 	display: block;
-	padding: 0em 2em;
+	padding: 0em 1.4em;
 	line-height: 50px;
-	letter-spacing: 2px;
+	letter-spacing: 1.5px;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-family: "Times New Roman";
 	font-size: 1.1em;
-	font-weight:550;
+	font-weight: 550;
 	color: #888888;
 }
 
