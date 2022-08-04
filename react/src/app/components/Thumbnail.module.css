@@ -1,0 +1,27 @@
+.overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    background-color: #232323;
+}
+
+.image {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+    border: 5px solid var(--accent-color);
+}
