@@ -5,11 +5,11 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import { Botonoids } from "./Botonoids";
-import { Shooterland } from "./Shooterland";
-import { TubeIt } from "./TubeIt";
-import { Smiley } from "./Smiley";
-import { Gorlorn } from "./Gorlorn";
+import { Botonoids } from "./games/Botonoids";
+import { Gorlorn } from "./games/Gorlorn";
+import { Shooterland } from "./games/Shooterland";
+import { Smiley } from "./games/Smiley";
+import { TubeIt } from "./games/TubeIt";
 import styles from './Home.module.css';
 
 /**

@@ -1,21 +1,21 @@
 import React from "react";
-import { GameLayout } from "./GameLayout";
-import { Thumbnail } from "./Thumbnail";
 
-import headerImage from './../../assets/img/shooterland/header.png';
-import thumb1 from './../../assets/img/shooterland/thumbnail1.png';
-import ss1 from './../../assets/img/shooterland/ss1.png';
-import thumb2 from './../../assets/img/shooterland/thumbnail2.png';
-import ss2 from './../../assets/img/shooterland/ss2.png';
-import thumb3 from './../../assets/img/shooterland/thumbnail3.png';
-import ss3 from './../../assets/img/shooterland/ss3.png';
-import thumb4 from './../../assets/img/shooterland/thumbnail4.png';
-import ss4 from './../../assets/img/shooterland/ss4.png';
-import thumb5 from './../../assets/img/shooterland/thumbnail5.png';
-import ss5 from './../../assets/img/shooterland/ss5.png';
-import thumb6 from './../../assets/img/shooterland/thumbnail6.png';
-import ss6 from './../../assets/img/shooterland/ss6.png';
-import { Header } from "./Header";
+import headerImage from './../../../assets/img/shooterland/header.png';
+import thumb1 from './../../../assets/img/shooterland/thumbnail1.png';
+import ss1 from './../../../assets/img/shooterland/ss1.png';
+import thumb2 from './../../../assets/img/shooterland/thumbnail2.png';
+import ss2 from './../../../assets/img/shooterland/ss2.png';
+import thumb3 from './../../../assets/img/shooterland/thumbnail3.png';
+import ss3 from './../../../assets/img/shooterland/ss3.png';
+import thumb4 from './../../../assets/img/shooterland/thumbnail4.png';
+import ss4 from './../../../assets/img/shooterland/ss4.png';
+import thumb5 from './../../../assets/img/shooterland/thumbnail5.png';
+import ss5 from './../../../assets/img/shooterland/ss5.png';
+import thumb6 from './../../../assets/img/shooterland/thumbnail6.png';
+import ss6 from './../../../assets/img/shooterland/ss6.png';
+import { Header } from "../Header";
+import { GameLayout } from "../layout/GameLayout";
+import { Thumbnail } from "../screenshots/Thumbnail";
 
 export class Shooterland extends React.Component {
     render() {

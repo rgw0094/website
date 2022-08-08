@@ -1,11 +1,11 @@
 import React from "react";
-import { GameLayout } from "./GameLayout";
-import { Header } from "./Header";
-import { Thumbnail } from "./Thumbnail";
 
-import headerImage from './../../assets/img/gorlorn/header.png';
-import thumb1 from './../../assets/img/gorlorn/thumb1.png';
-import ss1 from './../../assets/img/gorlorn/ss1.png';
+import headerImage from './../../../assets/img/gorlorn/header.png';
+import thumb1 from './../../../assets/img/gorlorn/thumb1.png';
+import ss1 from './../../../assets/img/gorlorn/ss1.png';
+import { Header } from "../Header";
+import { GameLayout } from "../layout/GameLayout";
+import { Thumbnail } from "../screenshots/Thumbnail";
 
 export class Gorlorn extends React.Component {
     render() {

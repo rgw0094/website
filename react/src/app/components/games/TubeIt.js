@@ -1,13 +1,13 @@
 import React from "react";
-import { GameLayout } from "./GameLayout";
-import { Header } from "./Header";
-import { Thumbnail } from "./Thumbnail";
 
-import headerImage from './../../assets/img/tubeit/header.png';
-import thumb1 from './../../assets/img/tubeit/thumb1.png';
-import ss1 from './../../assets/img/tubeit/ss1.png';
-import thumb2 from './../../assets/img/tubeit/thumb2.png';
-import ss2 from './../../assets/img/tubeit/ss2.png';
+import headerImage from './../../../assets/img/tubeit/header.png';
+import thumb1 from './../../../assets/img/tubeit/thumb1.png';
+import ss1 from './../../../assets/img/tubeit/ss1.png';
+import thumb2 from './../../../assets/img/tubeit/thumb2.png';
+import ss2 from './../../../assets/img/tubeit/ss2.png';
+import { Header } from "../Header";
+import { GameLayout } from "../layout/GameLayout";
+import { Thumbnail } from "../screenshots/Thumbnail";
 
 export class TubeIt extends React.Component {
     render() {

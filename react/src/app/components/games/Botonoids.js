@@ -1,15 +1,15 @@
 import React from "react";
-import { GameLayout } from "./GameLayout";
-import { Header } from "./Header";
-import { Thumbnail } from "./Thumbnail";
+import { GameLayout } from "../layout/GameLayout";
+import { Header } from "../Header";
+import { Thumbnail } from "../screenshots/Thumbnail";
 
-import headerImage from './../../assets/img/botonoids2008/header.png';
-import thumb1 from './../../assets/img/botonoids2008/thumb1.png';
-import ss1 from './../../assets/img/botonoids2008/ss1.png';
-import thumb2 from './../../assets/img/botonoids2008/thumb2.png';
-import ss2 from './../../assets/img/botonoids2008/ss2.png';
-import thumb3 from './../../assets/img/botonoids2008/thumb3.png';
-import ss3 from './../../assets/img/botonoids2008/ss3.png';
+import headerImage from './../../../assets/img/botonoids2008/header.png';
+import thumb1 from './../../../assets/img/botonoids2008/thumb1.png';
+import ss1 from './../../../assets/img/botonoids2008/ss1.png';
+import thumb2 from './../../../assets/img/botonoids2008/thumb2.png';
+import ss2 from './../../../assets/img/botonoids2008/ss2.png';
+import thumb3 from './../../../assets/img/botonoids2008/thumb3.png';
+import ss3 from './../../../assets/img/botonoids2008/ss3.png';
 
 export class Botonoids extends React.Component {
     render() {
